@@ -1,0 +1,27 @@
+html{
+    padding: 5px;
+}
+
+.lista_desordenada  {
+    background-color: rgb(32, 32, 126);
+    padding: 5px;
+}
+
+h1{
+    color: white;
+}
+h1.lista_desordenada    {
+    color: white;
+}
+
+.lista_ordenada  {
+    background-color: rgb(34, 34, 110);
+    padding: 5px;
+}
+
+#elemento-1 {
+    color: red;
+}
+div ul li#elemento-1   {
+    font-size: 2rem;
+}
