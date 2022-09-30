@@ -1,7 +1,6 @@
-
-.boton_class::before    {
-
-content: 'Pasa por encima';
+.boton_class::after    {
+content: '¡ Hecho !';
+visibility: visible;
 }
 
 .boton_class:hover{
