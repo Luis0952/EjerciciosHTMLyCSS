@@ -1,0 +1,22 @@
+
+.boton_class::before    {
+
+content: 'Pasa por encima';
+}
+
+.boton_class:hover{
+    background-color: darkgreen;
+    color: white;
+  
+   
+}
+
+.boton_class    {
+    padding: 5px;
+    border-radius: 5px;
+    border:none;
+    font-size: x-large;
+    font:bold;
+}
+ 
+
