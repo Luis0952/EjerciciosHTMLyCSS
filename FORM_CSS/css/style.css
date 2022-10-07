@@ -2,6 +2,7 @@
 *   {
   
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 .container  {
@@ -10,7 +11,7 @@
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-
+    background-color:  #161717;
 }
 
 .google-btn {
@@ -85,6 +86,43 @@ label input {
     border-radius: 5px;
     border: none;
     outline: none;
-    background-color: #f3f3f4;
+    background-color: #212121;
     padding: 10px 20px;
+    color: white;
+}
+
+label input:hover {
+    background-color: #454045;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #ab2322;
+}
+
+.submit-btn {
+    background-color: #EA4C89;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    opacity: 0.75;
+    }
+
+form    {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 20px   ;
+    padding: 20px 10px ;
+}
+
+
+
+h3, span    {
+    color: white;
 }
