@@ -1,0 +1,45 @@
+.container  {
+   
+    background-color: azure;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.row div    {
+    margin: 0.5rem;
+}
+
+.col    {
+    background-color: aquamarine;
+    padding: 0.5rem ;
+    border-radius: 5px;
+}
+.col-sm {
+    background-color: aqua;
+     padding: 0.5rem ;
+     border-radius: 5px;
+}
+
+.col-md {
+    background-color: rgb(123, 123, 219);
+     padding: 0.5rem ;
+     border-radius: 5px;
+}
+
+.col-lg {
+    background-color:darkcyan;
+     padding: 0.5rem ;
+     border-radius: 5px;
+}
+
+.col-xl {
+    background-color: steelblue;
+     padding: 0.5rem ;
+     border-radius: 5px;
+}
+
+.col-xxl    {
+    background-color: seagreen;
+     padding: 0.5rem ;
+     border-radius: 5px;
+   }
